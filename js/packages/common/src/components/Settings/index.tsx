@@ -19,7 +19,7 @@ export const Settings = ({
   return (
     <>
       <div style={{ display: 'grid' }}>
-        Network:{' '}
+        {/* Network:{' '}
         <Select
           onSelect={setEndpoint}
           value={endpoint}
@@ -30,7 +30,7 @@ export const Settings = ({
               {name}
             </Select.Option>
           ))}
-        </Select>
+        </Select> */}
         {connected && (
           <>
             <span>Wallet:</span>

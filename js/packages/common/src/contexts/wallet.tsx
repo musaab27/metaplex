@@ -98,10 +98,11 @@ export const WalletModal: FC = () => {
                 />
               }
               style={{
-                display: 'block',
+                display: 'flex',
                 width: '100%',
                 textAlign: 'left',
                 marginBottom: 8,
+                
               }}
             >
               {wallet.name}
@@ -115,6 +116,10 @@ export const WalletModal: FC = () => {
             style={{
               width: '80%',
               fontWeight: 'unset',
+              color: 'white',
+              borderColor: 'white',
+              fontSize: '1.5em'
+
             }}
             onClick={() => {
               select(WalletName.Phantom);
