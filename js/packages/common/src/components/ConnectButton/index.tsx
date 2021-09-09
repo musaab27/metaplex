@@ -33,12 +33,12 @@ export const ConnectButton = (props: ConnectButtonProps) => {
   }
 
   return (
-    <Dropdown.Button
+    <Dropdown.Button type="ghost"
       onClick={handleClick}
       disabled={connected && disabled}
       overlay={
         <Menu>
-          <Menu.Item onClick={open}>Change Wallet</Menu.Item>
+          <Menu.Item key={null} onClick={open}>Change Wallet</Menu.Item>
         </Menu>
       }
     >
